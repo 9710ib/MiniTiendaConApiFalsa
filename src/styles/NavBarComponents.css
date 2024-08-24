@@ -1,0 +1,38 @@
+@media(max-width: 992px){
+    .cart-icon{
+        display: none;
+    }
+
+    .navbar-toggler{
+        width: 100%;
+        padding: 5px;
+        margin: 10px 10px 5px 10px;
+      
+    }
+    .nav-link{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .navbar-collapse{
+        margin: -30px 0 -20px 0;
+    } 
+    .navbar{
+        margin: 0;
+
+    }
+
+     .img-logo{
+            display: none;
+        }
+    
+        .none{
+            display: none;
+        }
+
+        .nav-item{
+            display: block;
+            margin: 0;
+
+        }
+}

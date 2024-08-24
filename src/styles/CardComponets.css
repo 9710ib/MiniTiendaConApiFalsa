@@ -1,0 +1,151 @@
+.card{
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    width: 100%;
+    border: 0px;
+   
+}
+.todo{
+    display: flex;
+    margin-bottom: 10px;
+    min-width: 800px;
+    
+}
+
+
+.card-img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.card-content{
+    flex: 1;
+    width: 100%;
+    
+
+}
+
+.card-price{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+.card-title{
+    margin: 0;
+}
+
+.card-description{
+    margin: 0 0 10px 0;
+    display: flex;
+    width: 100%;
+    
+}
+
+
+.card-price{
+    margin: 0;
+    font-weight: bold;
+
+}
+
+.add-btn{
+    color: #0d6efd;
+    background-color: #e9faffd3;
+
+
+}
+.span1{
+    height: 10px;
+    font-size: 12px;
+    padding: 2px;
+    margin-right: 50px;
+    color: #b8b7b7;
+}
+
+.remove-btn{
+    color: #fbfbfb;
+    background-color: #ff0101d3;
+    transition: 1s all case;
+
+}
+
+button{
+    width: 80%;
+    padding: 10px 90px;
+    margin-bottom: 5px;
+}
+
+.rating> span{
+    font-weight: bold;
+    /* margin-left: 10px; */
+    
+}
+
+
+.rating{
+   display: flex;
+   margin-left: 1px;
+   margin-bottom: 40px;
+
+}
+
+.llega{
+    color: #06b306;
+    font-weight: 500;
+    padding-top: 0px;
+    margin-top: -20px;
+}
+
+.buscar{
+    width: 20%;
+}
+
+
+.btn-primary:hover{
+    background-color: #0051ca;
+}
+
+.costado{
+    display: block;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 40px;
+    
+    
+
+    
+}
+/* .btn1{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-right: 9px;
+    width: 8;
+    
+} */
+
+.disponibles{
+    font-size: 12px;
+    margin: 4px;
+    color: #9b9a9a;
+}
+
+.col-can{
+    width: 20%;
+}
+
+.btn-car{
+    display: flex;
+
+    float: left;
+    width: 20%;
+    margin: 2px;
+}
+
